@@ -12,13 +12,13 @@ function BlogPage() {
     <>
       <div className="w3-content">
         <Title />
-        <div class="w3-row">
-          <div class="w3-col l8 s12">
+        <div className="w3-row">
+          <div className="w3-col l8 s12">
             <BlogEntry image={woodsJpg} title="TITLE HEADING" date="April 7, 2014" comments="0" />
             <hr />
             <BlogEntry image={bridgeJpg} title="BLOG ENTRY" date="April 2, 2014" comments="2" />
           </div>
-          <div class="w3-col l4">
+          <div className="w3-col l4">
             <AboutCard />
             <hr />
             <Posts />

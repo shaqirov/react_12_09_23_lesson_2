@@ -1,4 +1,4 @@
-import workshop from './images/workshop.jpg';
+// import workshop from './images/workshop.jpg';
 import gondol from './images/gondol.jpg';
 import skies from './images/skies.jpg';
 import rock from './images/rock.jpg';
@@ -11,7 +11,7 @@ function Posts() {
       </div>
       <ul className="w3-ul w3-hoverable w3-white">
         <li className="w3-padding-16">
-          <img src={workshop} alt="" className="w3-left w3-margin-right" />
+          <img src="./images/workshop.jpg" alt="" className="w3-left w3-margin-right" />
           <span className="w3-large">Lorem</span>
           <br />
           <span>Sed mattis nunc</span>
